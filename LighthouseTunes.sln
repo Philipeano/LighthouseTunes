@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LighthouseTunes", "LighthouseTunes\LighthouseTunes.csproj", "{C171858A-18AA-4E79-B2AD-D3C37E107A09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LighthouseTunes.Data", "LighthouseTunes.Data\LighthouseTunes.Data.csproj", "{CBBCB58B-A683-478E-A3F8-6037D39CA354}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C171858A-18AA-4E79-B2AD-D3C37E107A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C171858A-18AA-4E79-B2AD-D3C37E107A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C171858A-18AA-4E79-B2AD-D3C37E107A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBCB58B-A683-478E-A3F8-6037D39CA354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBCB58B-A683-478E-A3F8-6037D39CA354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBCB58B-A683-478E-A3F8-6037D39CA354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBCB58B-A683-478E-A3F8-6037D39CA354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
