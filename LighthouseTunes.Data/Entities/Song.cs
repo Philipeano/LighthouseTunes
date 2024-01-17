@@ -1,5 +1,7 @@
-﻿using System;
+﻿using LighthouseTunes.Common.Enums;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -33,16 +35,5 @@ namespace LighthouseTunes.Data.Entities
 
         // Favourites referring to this song
         public List<Favourite> FavouritesList { get; set; }
-    }
-
-
-    public enum Genre
-    {
-        Unknown,
-        Afrobeats,
-        Reggae,
-        Pop,
-        Rock,
-        RnB
     }
 }
