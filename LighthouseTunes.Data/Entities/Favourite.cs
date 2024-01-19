@@ -10,6 +10,7 @@ namespace LighthouseTunes.Data.Entities
 {
     public class Favourite
     {
+        // NOTE: This Id prop is really not necessary if the two FK props below can guarantee uniqueness (as composite keys)
         [Required]
         public Guid Id { get; set; }
 
